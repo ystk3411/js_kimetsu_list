@@ -1,0 +1,11 @@
+li {
+  list-style: none;
+}
+
+td {
+  text-align: center;
+}
+
+.radioButton {
+  display: inline-block;
+}
