@@ -26,20 +26,6 @@ td {
   background-color: #ffffff;
 }
 
-#fadeout { 
-  animation: fadeOut 2s; 
-  animation-fill-mode: both; 
-}
-
-@keyframes fadeOut {
-  0% {
-      opacity: 1; 
-  }
-  100% {
-      opacity: 0;
-  }
-}
-
 .circle{ 
   position: absolute;
   top: 50%;

@@ -97,10 +97,10 @@ function formSwitch(){
 
 function loaddingAction(){
   window.addEventListener('load', function(){
-    setTimeout(function(){
+    setTimeout( function(){
       const loading = document.querySelector(".loading")
-      loading.setAttribute("id","fadeout")
       document.body.style.overflow = "auto"
+      loading.style.display = "none"
     },3000)
   });
 }
